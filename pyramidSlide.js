@@ -4,7 +4,9 @@
  */
 function determineHeightAndThenDrawPyramid() {
 
-    var sliderStep = document.getElementById("slider").step;
+    var sliderStep = document.getElementById("slider").value;
+    
+    //console.log(sliderStep)
     
     var heightNum = parseInt(sliderStep);
     

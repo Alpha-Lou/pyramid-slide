@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #pyramid {
+            line-height: 0;
+            font-size: 30px;
+        }
+
+        body {
+            font-family: "Courier New", monospace;
+            text-align: center;
+        }
+    </style>
+</head>
+<body >
+    <h1>Pyramid Slide</h1>
+
+    <br>
+    
+    
+      <p>Slide across to change the height of the pyramid </p><br>
+      
+            <input id="slider" type="range" min="0" max="10" step="1" onchange="determineHeightAndThenDrawPyramid()">
+            <br>
+            <br>
+    
+
+    <div id="pyramid"></div>
+
+    <script src="pyramidSlide.js"></script>
+</body>
+</html>
